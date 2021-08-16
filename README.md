@@ -1,4 +1,4 @@
-# SAMPLE MS CDK PROJECT!
+# SAMPLE MS CDK PROJECT - Cars Database API (CRUD through API Endpoints)
 
 **To Deploy:**
 **"npm run deploy"**
