@@ -16,9 +16,9 @@ The deployment will create a stack that contains constructs:
 **To Deploy:**
 **"npm run deploy"**
 
-Once the deployment runs successfully (verified through going into AWS console and checking Cloud Formation Resources),
-Assign the Secret ARN to the RDS database through the console.
+Once the deployment runs successfully the table in the RDS Aurora SQL, "carsdb" database needs to be manually created.
 
+To manually create a table in the existing "carsdb" database, 
 **Copy ARN Secret from "AWS Secrets Manager"**</br>
 **Step 1.** AWS -> Secrets Manager -> "Click on Secret Generated from CDK Stack" -> "Copy **Secret ARN**"
 
